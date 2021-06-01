@@ -16,8 +16,9 @@ var numprod = () => {
   for (let i = 0; i < contenido_cesta.length; i++) {
     num += contenido_cesta[i].unidades;
   }
-  if (num == 1) {
-    if (document.getElementById("n_prod")) {
+
+  if (document.getElementById("n_prod")) {
+    if (num == 1) {
       document.getElementById(
         "n_prod"
       ).innerHTML = `<b>${num}</b> product in basket case. `;
