@@ -21,11 +21,11 @@ var numprod = () => {
     if (num == 1) {
       document.getElementById(
         "n_prod"
-      ).innerHTML = `<b>${num}</b> product in basket case. `;
+      ).innerHTML = `<b>${num}</b> product in the shopping basket `;
     } else
       document.getElementById(
         "n_prod"
-      ).innerHTML = `<b>${num}</b> products in basket case. `;
+      ).innerHTML = `<b>${num}</b> products in the shopping basket `;
   }
 };
 
